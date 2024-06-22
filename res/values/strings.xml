@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<string name="app_name">MyMinesweeper</string>
+	<string name="menu_new">新游戏</string>
+	<string name="menu_new_shortcut">N</string>
+	<string name="menu_pref">重新选择难度</string>
+	<string name="menu_pref_shortcut">P</string>
+	<string name="menu_exit">退出当前页面</string>
+	<string name="menu_exit_shortcut">Q</string>
+	<string name="preferences">设置</string>
+	<string name="introduce">扫雷在科技历史上也扮演了相似的角色。这个基于数字的逻辑谜题最早来自20世纪六七十年代，当时Jerimac Ratliff推出的名为“Cube”的游戏已经非常受人欢迎。几十年后的1992年，扫雷游戏被加入了Windows3.1，这并不是为了展示Windows是游戏操作系统专家，而是为了训练用户的鼠标左右键操作能力，让这些动作变得非常自然，并培养鼠标移动的速度和准确性。</string>
+	<string name="menu_list">查看最快记录</string>
+	<string name="menu_list_shortcut">L</string>
+	
+</resources>

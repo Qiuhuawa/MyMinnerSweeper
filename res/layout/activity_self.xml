@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/firefly"
+    tools:context=".SelfActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+        
+       <TextView 
+       		android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:layout_marginLeft="10dp"
+       		android:layout_marginRight="10dp"
+       		android:layout_marginTop="10dp"
+	   		android:text="欢迎来到自定义模式！"
+	   		android:textColor="#FFFFFF"
+	   		android:textSize="20sp"/>
+       
+       <TextView 
+       		android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:layout_marginLeft="10dp"
+       		android:layout_marginRight="10dp"
+       		android:layout_marginTop="10dp"
+	   		android:text="@string/introduce"
+	   		android:textColor="#FFFFFF"
+	   		android:textSize="10sp"/>
+       
+       <TextView 
+			android:layout_width="match_parent"
+       		android:layout_height="wrap_content"
+       		android:layout_marginLeft="10dp"
+       		android:layout_marginRight="10dp"
+       		android:layout_marginTop="10dp"
+       		android:text="现在就请你亲自为自己设定极限，突破自我吧！"
+       		android:textColor="#FFFFFF"
+       		android:textSize="10sp"
+           />
+     </LinearLayout>
+     
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+		<TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#FFFFFF"
+            android:text="用户名："/>
+                  
+		<EditText
+            android:id="@+id/name"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:textColor="#FF00FF"
+            android:hint="输入你的代号"/>
+	</LinearLayout>
+	
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+		<TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textColor="#FFFFFF"
+            android:text="自定义地雷数目："/>
+                  
+		<EditText
+            android:id="@+id/Mnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:textColor="#FF00FF"
+            android:hint="输入一个整数"/>
+	</LinearLayout>
+
+	<Button
+	    android1:id="@+id/btconfrom"
+	    android1:layout_width="wrap_content"
+	    android1:layout_height="wrap_content"
+	    android1:layout_gravity="center"
+	    android1:text="Let&apos;s move!"
+	    android1:textColor="#FF00FF" />
+		 
+</LinearLayout>
